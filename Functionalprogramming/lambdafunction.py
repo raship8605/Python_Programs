@@ -1,3 +1,16 @@
+
+'''
+A lambda function is a small anonymous function written in one line.
+
+ It has no name
+ Used for short, simple operations
+ Often used with map(), filter(), reduce(), sorted()
+
+ syntax:  ambda arguments : expression
+ Exaample: square = lambda x: x*x
+           print(square(5))
+'''
+
 #addition
 add=lambda n1,n2:(n1+n2)
 print(add(10,20))

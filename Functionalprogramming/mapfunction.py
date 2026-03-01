@@ -1,4 +1,17 @@
-#map() to find square of each number in a list
+
+'''
+map() applies a function to every element of an iterable (list, tuple, etc.)
+Returns a map object → convert to list/tuple to see result.
+
+syntax:  map(function, iterable)
+       function → normal function or lambda
+       iterable → list, tuple, etc.
+
+Example :nums = [1,2,3,4]
+         square = list(map(lambda x: x**2, nums))
+         print(square)
+'''
+ #map() to find square of each number in a list
 li=[10,20,30,40,50]
 square=map(lambda num:num**2,li)
 print(list(square))
