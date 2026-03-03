@@ -3,6 +3,7 @@ raising own exception by using raise keyword
 raise allows you to manually throw an exception
 
 Know common built-in exceptions:
+
 ZeroDivisionError, ValueError, TypeError, IndexError, KeyError, FileNotFoundError
 Prefer specific exceptions over a general Exception.
 Always use finally for cleanup, like closing files or connections.
