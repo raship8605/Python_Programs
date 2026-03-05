@@ -139,3 +139,69 @@ print(li)
 li= [100, 200, 300, 400]
 li.pop(0)
 print(li)
+
+#remove() Function Questions
+#10 Write a program to remove the element 20 from the given list. Input: [10, 20, 30, 40, 50]
+
+li=[10,20,30,40,50]
+li.remove(20)
+print(li)
+
+#11 Write a program to remove the first occurrence of "apple" from the given list.
+#Input: ["banana", "apple", "cherry", "apple"]
+
+fruits=["banana", "apple", "cherry", "apple"]
+fruits.remove("apple")
+print(fruits)
+
+#12 Write a program to remove the number 5 from the given list if it exists. Input: [1, 2, 3, 4, 5, 6]
+
+li= [1, 2, 3, 4, 5, 6]
+li.remove(5)
+print(li)
+
+#index() Function Questions
+#13 Write a program to find the index of the element 50 in the given list. Input: [10, 20, 30, 40, 50, 60]
+
+li= [10, 20, 30, 40, 50, 60]
+print(li.index(50))
+
+#14 Write a program to find the index of "cherry" in the given list. Input: ["apple", "banana", "cherry", "date"]
+
+fruits=["banana", "apple", "cherry", "apple"]
+print(fruits.index("cherry"))
+
+#15 Write a program to find the index of the number 100 in the given list. If not found, print "Not found". Input: [10, 20, 30, 40]
+
+li=[10, 20, 30, 40]
+# print(li.index(100))
+
+#not found error
+
+#count() Function Questions
+#16 Write a program to count the occurrences of 5 in the given list. Input: [1, 5, 2, 5, 3, 5, 4]
+
+li=[1, 5, 2, 5, 3, 5, 4]
+print(li.count(5))
+
+#17 Write a program to count how many times "apple" appears in the given list.
+#input: ["apple", "banana", "apple", "cherry", "apple"]
+
+li=["apple", "banana", "apple", "cherry", "apple"]
+print(li.count("apple"))
+
+#18 Write a program to count the occurrences of 100 in the given list. Input: [10, 20, 30, 40, 50]
+
+li=[10,20,30,40,50]
+print(li.count(100))
+
+#min() and max() Function Questions
+#19 Write a program to find the minimum value in the given list. Input: [45, 12, 78, 34, 23]
+
+li=[45, 12, 78, 34, 23]
+print(min(li))
+
+#20 Write a program to find the maximum value in the given list. Input: [99, 55, 73, 21, 64]
+
+li=[99, 55, 73, 21, 64]
+print(max(li))
